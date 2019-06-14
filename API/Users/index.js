@@ -1,6 +1,6 @@
 import db from '../DB';
 
-const getUser = (table, method, username, password) => {
+export const getUser = (table, method, username, password) => {
 	const res = {};
 
 	// Fetch User
