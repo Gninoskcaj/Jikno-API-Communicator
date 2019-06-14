@@ -1,5 +1,5 @@
 // Params: username, table, method
-const users = () => {
+var users = () => {
 	return [
 		{
 			username: 'Jeff',
@@ -14,7 +14,7 @@ const users = () => {
 	]
 }
 
-const start = (username, table, method, password) => {
+var start = (username, table, method, password) => {
 	//let url = `https://api.jikno.com/${table.toLowerCase()}/${userId()}`
 	let userId = '';
 	return userId(username, password, users())
@@ -22,7 +22,7 @@ const start = (username, table, method, password) => {
 
 }
 
-const userId = (username, password, users) => {
+var userId = (username, password, users) => {
 	for (let x in users) {
 		for (let i in users[x]) {
 			if (users[x].username === username && users[x].password === password) {
@@ -32,7 +32,7 @@ const userId = (username, password, users) => {
 	}
 }
 
-const handleUserId = (username, password, id) => {
+var handleUserId = (username, password, id) => {
 	console.log(username)
 	console.log(userId(username, password))
 	console.log(password)
