@@ -1,0 +1,19 @@
+{
+  "name": "jikno-api-communicator",
+  "version": "1.0.0",
+  "description": "This is made to talk to the [Jikno API](https://github.com/Gninoskcaj/AWS_Lambda_Jikno_Functions)",
+  "main": "Index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gninoskcaj/Jikno-API-Communicator.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gninoskcaj/Jikno-API-Communicator/issues"
+  },
+  "homepage": "https://github.com/Gninoskcaj/Jikno-API-Communicator#readme"
+}
